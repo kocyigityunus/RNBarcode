@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6375DE1C68C6E900EA5D97 /* RNBarcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6375DB1C68C6E900EA5D97 /* RNBarcodeView.m */; };
+		5C6375DF1C68C6E900EA5D97 /* RNBarcodeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6375DD1C68C6E900EA5D97 /* RNBarcodeViewManager.m */; };
+		5C6375F71C68CBD800EA5D97 /* ZXingObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6375F61C68CBD800EA5D97 /* ZXingObjC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C6375CC1C68C64C00EA5D97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C6375CE1C68C64C00EA5D97 /* libRNBarcode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBarcode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6375DA1C68C6E900EA5D97 /* RNBarcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarcodeView.h; sourceTree = "<group>"; };
+		5C6375DB1C68C6E900EA5D97 /* RNBarcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarcodeView.m; sourceTree = "<group>"; };
+		5C6375DC1C68C6E900EA5D97 /* RNBarcodeViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarcodeViewManager.h; sourceTree = "<group>"; };
+		5C6375DD1C68C6E900EA5D97 /* RNBarcodeViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarcodeViewManager.m; sourceTree = "<group>"; };
+		5C6375F61C68CBD800EA5D97 /* ZXingObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZXingObjC.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6375CB1C68C64C00EA5D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6375F71C68CBD800EA5D97 /* ZXingObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6375C51C68C64C00EA5D97 = {
+			isa = PBXGroup;
+			children = (
+				5C6375D01C68C64C00EA5D97 /* RNBarcode */,
+				5C6375CF1C68C64C00EA5D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6375CF1C68C64C00EA5D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6375CE1C68C64C00EA5D97 /* libRNBarcode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6375D01C68C64C00EA5D97 /* RNBarcode */ = {
+			isa = PBXGroup;
+			children = (
+				5C6375F61C68CBD800EA5D97 /* ZXingObjC.framework */,
+				5C6375DA1C68C6E900EA5D97 /* RNBarcodeView.h */,
+				5C6375DB1C68C6E900EA5D97 /* RNBarcodeView.m */,
+				5C6375DC1C68C6E900EA5D97 /* RNBarcodeViewManager.h */,
+				5C6375DD1C68C6E900EA5D97 /* RNBarcodeViewManager.m */,
+			);
+			path = RNBarcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6375CD1C68C64C00EA5D97 /* RNBarcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6375D71C68C64C00EA5D97 /* Build configuration list for PBXNativeTarget "RNBarcode" */;
+			buildPhases = (
+				5C6375CA1C68C64C00EA5D97 /* Sources */,
+				5C6375CB1C68C64C00EA5D97 /* Frameworks */,
+				5C6375CC1C68C64C00EA5D97 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBarcode;
+			productName = RNBarcode;
+			productReference = 5C6375CE1C68C64C00EA5D97 /* libRNBarcode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6375C61C68C64C00EA5D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "yunus kocyigit";
+				TargetAttributes = {
+					5C6375CD1C68C64C00EA5D97 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C6375C91C68C64C00EA5D97 /* Build configuration list for PBXProject "RNBarcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C6375C51C68C64C00EA5D97;
+			productRefGroup = 5C6375CF1C68C64C00EA5D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6375CD1C68C64C00EA5D97 /* RNBarcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6375CA1C68C64C00EA5D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6375DE1C68C6E900EA5D97 /* RNBarcodeView.m in Sources */,
+				5C6375DF1C68C6E900EA5D97 /* RNBarcodeViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C6375D51C68C64C00EA5D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C6375D61C68C64C00EA5D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C6375D81C68C64C00EA5D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNBarcode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C6375D91C68C64C00EA5D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNBarcode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6375C91C68C64C00EA5D97 /* Build configuration list for PBXProject "RNBarcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6375D51C68C64C00EA5D97 /* Debug */,
+				5C6375D61C68C64C00EA5D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6375D71C68C64C00EA5D97 /* Build configuration list for PBXNativeTarget "RNBarcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6375D81C68C64C00EA5D97 /* Debug */,
+				5C6375D91C68C64C00EA5D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6375C61C68C64C00EA5D97 /* Project object */;
+}

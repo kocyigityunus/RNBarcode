@@ -1,0 +1,25 @@
+{
+  "name": "rnbarcode",
+  "version": "0.1.0",
+  "description": "react native barcode view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "baroce",
+    "qrcode",
+    "code128",
+    "view"
+  ],
+  "author": "yunus kocyigit @kocyigityunus",
+  "license": "MIT",
+  "devDependencies": {
+    "react-native": "^0.19.0"
+  },
+  "peerDependencies": {
+    "react-native": "^0.19.0"
+  }
+}
