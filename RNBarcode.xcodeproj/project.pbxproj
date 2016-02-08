@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5C6376671C68DA4600EA5D97 /* RNBarcode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C6376661C68DA4600EA5D97 /* RNBarcode.h */; };
-		5C6376691C68DA4600EA5D97 /* RNBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6376681C68DA4600EA5D97 /* RNBarcode.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5C6376621C68DA4600EA5D97 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,7 +13,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				5C6376671C68DA4600EA5D97 /* RNBarcode.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,11 +23,7 @@
 		5C6375DB1C68C6E900EA5D97 /* RNBarcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarcodeView.m; sourceTree = "<group>"; };
 		5C6375DC1C68C6E900EA5D97 /* RNBarcodeViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarcodeViewManager.h; sourceTree = "<group>"; };
 		5C6375DD1C68C6E900EA5D97 /* RNBarcodeViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarcodeViewManager.m; sourceTree = "<group>"; };
-		5C6376311C68D48100EA5D97 /* RNBarcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBarcode.h; sourceTree = "<group>"; };
-		5C6376331C68D48100EA5D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6376641C68DA4600EA5D97 /* libRNBarcode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBarcode.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C6376661C68DA4600EA5D97 /* RNBarcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBarcode.h; sourceTree = "<group>"; };
-		5C6376681C68DA4600EA5D97 /* RNBarcode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBarcode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				5C6375D01C68C64C00EA5D97 /* RNBarcode */,
-				5C6376301C68D48000EA5D97 /* RNBarcode */,
-				5C6376651C68DA4600EA5D97 /* RNBarcode */,
 				5C6375CF1C68C64C00EA5D97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,24 +60,6 @@
 				5C6375DB1C68C6E900EA5D97 /* RNBarcodeView.m */,
 				5C6375DC1C68C6E900EA5D97 /* RNBarcodeViewManager.h */,
 				5C6375DD1C68C6E900EA5D97 /* RNBarcodeViewManager.m */,
-			);
-			path = RNBarcode;
-			sourceTree = "<group>";
-		};
-		5C6376301C68D48000EA5D97 /* RNBarcode */ = {
-			isa = PBXGroup;
-			children = (
-				5C6376311C68D48100EA5D97 /* RNBarcode.h */,
-				5C6376331C68D48100EA5D97 /* Info.plist */,
-			);
-			path = RNBarcode;
-			sourceTree = "<group>";
-		};
-		5C6376651C68DA4600EA5D97 /* RNBarcode */ = {
-			isa = PBXGroup;
-			children = (
-				5C6376661C68DA4600EA5D97 /* RNBarcode.h */,
-				5C6376681C68DA4600EA5D97 /* RNBarcode.m */,
 			);
 			path = RNBarcode;
 			sourceTree = "<group>";
@@ -150,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6376691C68DA4600EA5D97 /* RNBarcode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
